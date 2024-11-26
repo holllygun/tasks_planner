@@ -280,3 +280,10 @@ button.add_taskslist_button {
     padding: 2px;
     border-radius: 5px;
   }
+
+  @media  screen and (max-width: 640px) {
+    .task_container {
+        width: 90%;
+        display: block;
+    }
+  }
