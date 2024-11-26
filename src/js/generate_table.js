@@ -20,7 +20,6 @@ export default class Space {
     boardTitle.classList.add("board_title");
     boardTitle.contentEditable = true;
     boardTitle.textContent = `Board ${id}`;
-    boardTitle.setAttribute("data-placeholder", "Enter board title...");
 
     taskBlock.appendChild(boardTitleWrapper);
 
